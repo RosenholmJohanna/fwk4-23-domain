@@ -10,6 +10,6 @@ jobs:
     steps:
     - name: discord
       uses: sebastianpopp/discord-action@releases/v2
-       with:
+      with:
         webhook: ${{ secrets.DISCORD_WEBHOOK }}
         message: ${{ github.actor }} has been successfullly pushed to main.
